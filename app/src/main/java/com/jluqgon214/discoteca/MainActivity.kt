@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         botonColor.setOnClickListener {
             val mainLayout = findViewById<ConstraintLayout>(R.id.main)
             mainLayout.setBackgroundColor(rgb(Random.nextInt(256), Random.nextInt(256), Random.nextInt(256)))
+            botonColor.setBackgroundColor(rgb(Random.nextInt(256), Random.nextInt(256), Random.nextInt(256)))
         }
 
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
